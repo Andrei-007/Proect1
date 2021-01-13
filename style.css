@@ -1,0 +1,376 @@
+body {
+    overflow-x: hidden;
+    background:url(111.jpg);
+}
+
+#article {
+    height:1910px;
+    width:1300px;
+    border:4px solid grey;
+    border-radius:25px;
+    margin-top:5px;
+    text-align: left;
+    padding:10px 0px 10px 0px; 
+    background:#ddd;
+    opacity:.9;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 19, 10);
+}
+#header {
+    color:black;
+    position: relative;
+    padding:10px;
+    height:100px;
+    width:98,6%; 
+
+    border-bottom:4px solid grey;
+    border-radius:25px;
+}
+#CIRCL1
+{
+    display: inline-block;
+    border:2px solid white;
+    border-radius:50px;
+    background:white;
+    height:70px;
+    width:70px;
+    position: absolute;
+    
+}
+
+#CIRCL1:hover 
+{
+    transform: scale(1.1, 1.1);
+    transition: transform .5s;
+}
+#CIRCL2
+{
+    display: inline-block;
+    border:2px solid blue;
+    border-radius:50px;
+    background:blue;
+    left:25px;
+    height:70px;
+    width:70px;
+    position: absolute;
+    
+}
+
+#CIRCL2:hover 
+{
+    transform: scale(1.1, 1.1);
+    transition: transform .5s;
+}
+#CIRCL3
+{
+    display: inline-block;
+    border:2px solid red;
+    border-radius:50px;
+    background:red;
+    left:40px;
+    height:70px;
+    width:70px;
+    position: absolute;
+    
+}
+#CIRCL3:hover 
+{
+    transform: scale(1.1, 1.1);
+    transition: transform .5s;
+}
+#theme
+{
+    display: inline-block;
+    top: -3px;
+    padding:10px;
+    padding-top:15px;
+    padding-right:15px;
+    left: 115px;
+    border-right: 2px solid grey;
+    position: absolute;
+}
+#MENU
+{
+    float: right;
+    margin-right: 580px;
+    margin-bottom:20px;
+}
+#MENU:hover
+{
+    color:red;
+    font-size: 17px;
+    transition:font-size .4s;
+}
+#CATALOG
+{
+    position: relative;
+    left:725px;
+    display: block;
+}
+#CATALOG:hover
+{
+    font-size: 17px;
+    transition:font-size .4s;
+}
+#NEWS
+{
+    position: relative;
+    left:875px;
+    bottom:47px;
+}
+#NEWS:hover
+{
+    font-size: 17px;
+    transition:font-size .4s;
+}
+#CONTACTS
+{
+    position: relative;
+    left:975px;
+    bottom:94px;
+}
+#TEXT
+{
+    position: absolute;
+    left:622px;
+    bottom:1px;
+
+}
+
+#BIRGA
+{
+    position: relative;
+    height:350px;
+    width:550px;
+    display: block;
+    MARGIN-top:30px;
+    
+}
+
+
+
+#NADBIRGATEXT
+{
+    font-weight: bold;
+    font-size: 27px;
+    position: relative;
+    display: block;
+    top:15px;
+}
+#PODBIRGATEXT
+{
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    display: block;
+    width:550px;
+    word-wrap:break-word;
+    top:-1px;
+}
+#trampierdogan
+{
+    position: relative;
+    border-left:2px solid grey;
+    height: 350px;
+    width:550px;
+    display: block;
+}
+#NADtrampierdoganTEXT
+{
+    font-weight: bold;
+    font-size: 27px;
+    width:550px;
+    word-wrap:break-word;
+    position: relative;
+    display: block;
+    
+}
+#NADtrampierdoganTEXT:hover
+{
+    font-size:28px;
+    color: #e1fdff;
+    transition: font-size .5s;
+}
+#PODtrampierdoganTEXT
+{
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    display: block;
+    width:550px;
+    word-wrap:break-word;
+    top:-1px;
+}
+.block
+{
+    display:inline-table;
+}
+
+.b1 {
+    margin-left:45px;
+}
+
+.b2 {
+    margin-left:100px;
+}
+.CONTENT
+{
+    padding-bottom: 5px;
+    border-bottom:4px solid grey;
+    border-radius:25px;
+}
+
+
+/*STRANICA 2*/
+
+
+#NADKUBATEXT
+{
+    
+    height:168px;
+    width:570px;
+    font-weight: bold;
+    font-size: 27px;
+    position: relative;
+    display: block;
+}
+.CNT2
+{
+    margin: 10px;
+    padding: 10px;
+    border-top:4px solid grey;
+}
+#KUBA
+{
+    position: relative;
+    height: 350px;
+    width:550px;
+    margin-top:-125px;
+
+}
+#PODKUBATEXT
+{
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    display: block;
+    width:550px;
+    word-wrap:break-word;
+    top:-1px;
+}
+#Wintertext
+{
+    height:168px;
+    width:570px;
+    font-weight: bold;
+    font-size: 27px;
+    position: relative;
+    display: block;
+    margin-left:685px;
+    margin-top:-535px;
+}
+
+#Winter
+{
+    position: relative;
+    height:350px;
+    width:550px;
+    margin-top: -125px;
+    margin-left:670px;
+}
+#PodWintertext
+{
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    display: block;
+    width:550px;
+    word-wrap:break-word;
+    top:-1px;
+    margin-left:675px;
+    
+}
+#NADMEDUZA
+{
+    height:168px;
+    width:570px;
+    font-weight: bold;
+    font-size: 27px;
+    position: relative;
+    display: block;
+}
+#MEDUZA
+{
+    position: relative;
+    height: 350px;
+    width:550px;
+    margin-top:-125px;
+}
+#PODMEDUZA
+{
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    display: block;
+    width:550px;
+    word-wrap:break-word;
+    
+}
+#NADFISH
+{
+    height:168px;
+    width:570px;
+    font-weight: bold;
+    font-size: 27px;
+    position: relative;
+    display: block;
+    margin-left:92px;
+}
+#FISH
+{
+    position: relative;
+    height: 350px;
+    width:550px;
+    margin-top:-125px;
+    margin-left:92px;
+}
+#PODFISH
+{
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    display: block;
+    width:550px;
+    word-wrap:break-word;
+    margin-left:92px;
+}
+#footer
+{
+    text-align:center;
+    text-align:-webkit- center;
+    text-align:-o- center;
+    text-align:-mos- center;
+    background:grey;
+    font-weight:bold;
+    font-size:27px;  
+    margin-top:15px; 
+    border-radius:25px; 
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#dopolnenie
+{
+    width:500px;
+    font-size:20px;
+    padding-top:-30px; 
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,117 @@
+body {
+    overflow-x: hidden;
+    background:url(111.jpg);
+}
+
+#article {
+    height:900px;
+    width:1300px;
+    border:4px solid grey;
+    border-radius:25px;
+    margin-top:5px;
+    text-align: left;
+    padding:10px 0px 10px 0px; 
+    background:#ddd;
+    opacity:.9;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 19, 10);
+}
+#header {
+    color:black;
+    position: relative;
+    padding:10px;
+    height:100px;
+    width:98,6%; 
+
+    border-bottom:4px solid grey;
+    border-radius:25px;
+}
+#CIRCL1
+{
+    display: inline-block;
+    border:2px solid white;
+    border-radius:50px;
+    background:white;
+    height:70px;
+    width:70px;
+    position: absolute;
+    
+}
+#CIRCL2
+{
+    display: inline-block;
+    border:2px solid blue;
+    border-radius:50px;
+    background:blue;
+    left:25px;
+    height:70px;
+    width:70px;
+    position: absolute;
+    
+}
+#CIRCL3
+{
+    display: inline-block;
+    border:2px solid red;
+    border-radius:50px;
+    background:red;
+    left:40px;
+    height:70px;
+    width:70px;
+    position: absolute;
+    
+}
+#theme
+{
+    display: inline-block;
+    top: -3px;
+    padding:10px;
+    padding-top:15px;
+    padding-right:15px;
+    left: 115px;
+    border-right: 2px solid grey;
+    position: absolute;
+}
+#MENU
+{
+    float: right;
+    margin-right: 580px;
+    margin-bottom:20px;
+}
+#MENU:hover
+{
+    color:red;
+
+}
+#CATALOG
+{
+    position: relative;
+    left:725px;
+}
+#NEWS
+{
+    position: relative;
+    left:875px;
+    bottom:47px;
+}
+#CONTACTS
+{
+    position: relative;
+    left:975px;
+    bottom:94px;
+}
+#TEXT
+{
+    position: absolute;
+    left:622px;
+    bottom:1px;
+
+}
+

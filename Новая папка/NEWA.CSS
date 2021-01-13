@@ -1,0 +1,56 @@
+ul
+{
+    list-style-type: circle;
+    list-style-position:outside;
+    list-style-image: none:
+}
+table{
+    border-collapse:separate;
+    empty-cells: hide;
+    border-spacing:5px 10px;
+    table-layout: auto;
+    user-select: none;
+    
+
+}
+a{
+    text-decoration:none;
+    cursor: pointer;
+    background-repeat: repeat-x;
+    
+}
+#Button{
+    background: rgb(151, 151, 151);
+    color: black;
+    border: unset 3px grey;
+    outline: red;
+    cursor: pointer;
+
+}
+
+button:active {
+
+}
+a:hover
+{
+    color: green;
+
+}
+a:visited
+{
+    color:rgb(88, 86, 86);
+    font-size: 100px;
+}
+a:active{
+    font-size: 1.01em;
+}
+caption
+{
+  caption-side:top;  
+}
+
+/*#Kyrsor*/
+{
+    cursor: context-menu;
+
+}

@@ -1,0 +1,13 @@
+#nazad
+{
+    font-size: 30px;
+    float: right;
+    
+}
+a{
+    color:black;
+    text-decoration:red; 
+}
+a:hover{
+    color:green;
+}

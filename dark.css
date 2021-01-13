@@ -1,0 +1,400 @@
+body {
+    background: #000000 url(hernie4.jpg) ; /* Цвет фона и путь к файлу */ 
+    background-size: 100%; /* Современные браузеры */
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    position: absolute; 
+   }
+  
+   html, body {                                /*Скролл справа на страницу */
+    scrollbar-3dlight-color:#fc0;; 
+    height: 100%; 
+   }
+
+/* Кнопка  вверх *//* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка */
+#myBtn {
+    
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 2.5px solid black;; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(116, 116, 116); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: rgb(29, 21, 21); /* Add a dark-grey background on hover */
+}
+/* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка *//* Кнопка */
+/*ЗАПРЕТ НА ВЫДЕЛЕНИЕ*/
+.Zapret {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+  }
+
+
+
+   /*ФУНКЦИИ*/
+
+   .EffectNajatia:hover{
+    color:rgb(94, 84, 29); 
+       }
+
+
+    a{         /*  Сама ссылка*/
+       color:rgb(255, 255, 255);
+       text-decoration: none; 
+     }              
+
+
+     
+     a:hover{         /*  при наведении курсора менять цвет текста*/
+        color:rgb(48, 47, 47);
+        text-shadow: 0px 0px 5px;
+            }
+
+      a:active{           /*  при активации курсора менять цвет текста*/
+         color:rgb(37, 1, 1);
+         
+              }
+                
+
+   /*HEADER*/
+
+.FirstConteiner
+{       
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    border: 4px solid rgb(192, 191, 191);
+    Border-radius:25px;
+}
+#NazvanieSaita
+{
+    color: rgb(196, 194, 194);
+    text-shadow: 0 0px 15px black;
+}
+
+
+   .nadpisi{
+       border: 2px;
+       color: rgb(13, 17, 17);
+       font-size: 15px;
+       padding: 1%;
+       font-size: 45px ;
+       font-family: 'Times New Roman', Times, serif;
+       padding: 5px;
+       padding-left: 35px;
+   }
+
+/* ПОД ХИДЕРОМ*/
+
+
+.SecondConteiner{
+    display: grid;
+    background: rgb(8, 7, 7);
+    border: 2px solid rgb(255, 255, 255);
+    Border-radius:25px;
+    margin-top: 5px;
+               }
+           
+#plita {
+    background-size: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    border-radius:24px; 
+    position: relative; 
+}
+
+#plita:hover  {
+    background-size: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    border-radius:24px; 
+    position: relative; 
+    -webkit-filter:brightness(40%);
+    filter: brightness(40%);
+    transition: 1.7s ease-in-out;
+}
+
+
+
+#SlovaNaKartinke{
+        color			: rgb(136, 125, 125);
+        font			: bold 24px/45px Helvetica, Sans-Serif;
+        letter-spacing	: -1px;
+        background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+        background		: rgba(0, 0, 0, 0.7);
+        padding			: 5px;
+        border-radius: 22px;
+    }
+
+    #SlovaNaKartinke:hover{
+        color			: rgb(212, 209, 209);
+        font			: bold 24px/45px Helvetica, Sans-Serif;
+        letter-spacing	: -1px;
+        background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+        background		: rgba(0, 0, 0, 0.7);
+        padding			: 5px;
+        border-radius: 22px;
+        transition: .5s ease-in-out;
+    }
+    #slovotovari{
+        color:rgb(196, 5, 5);
+    }
+    
+
+
+
+
+
+
+/*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*/
+
+
+
+/* 
+
+
+    .product-wrapper {
+	display: block;
+    width: 100%;
+    
+	float: left;
+	transition: width .2s;
+}
+   @media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+
+.product {
+	display: block;
+	border: 1px solid #b5e9a7;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 300px;
+} 
+ */
+
+
+/*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*//*ЛИШНИЙ КОД*/
+
+
+
+
+
+/* КАТАЛОГ! */
+
+.katalogkonteiner{
+    display: grid;
+    background: grey;
+    border: 2px solid rgb(25, 240, 255);
+    Border-radius:25px;
+    margin-top: 5px;
+               }
+
+.kartinka{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    width:550px;
+    height:350px;
+    margin: 10px;
+    border-radius: 15px;
+    border:1px solid  red;
+    max-width: 50%;
+    height: auto;
+    border-radius:24px; 
+    position: relative; 
+}
+
+.opisanieProducta{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: #b91c1c;
+ padding: 1px;
+ font-size: 20px;
+ margin-right: 10px;
+ margin-top: 100px;
+}
+.opisanie{
+color:white; 
+font-size: 20px;
+}
+
+.price{
+    color: rgb(185, 2, 2);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.kupit{
+    color: #ffffff;
+    border-radius: 50px;
+    margin-top: 5px;
+    padding: 3px;
+    font-size: 25px;
+
+}
+#kupit2{
+    color: rgb(255, 255, 255);
+    background: rgb(46, 42, 42);
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: 5px;
+    padding: 3px;
+    font-size: 25px;
+
+    float: right; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* КАТАЛОГ! */
+
+
+/*FOOTER*/
+article {
+    min-height: 100%;
+    display: grid;
+    width: 180%;
+    grid-template-rows: auto 1fr auto;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    width: 99.35%;
+    justify-content: center;
+    padding: 5px;
+    background-color: #171a1d;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:15px;
+}
+footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 5px;
+    background-color: #17191b;
+    color: #fff;
+}
+
+
+#silinii{
+    color:rgb(136, 125, 125);;
+}
+
+#stalker{
+    color:rgb(136, 125, 125);;
+}
+.black_OL_NIZ{
+    color:rgb(136, 125, 125);;
+}
+
+#darkThemeColor{
+    color:rgb(196, 5, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+/* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! */
+.onas{
+    font-size: 150%;
+}
+.redd{
+    color:rgb(0, 0, 0);
+   text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 255, 255); /* Параметры тени */
+    font-size: 2em; /* Размер надписи */
+}
+/* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! *//* О НАС! */
+
+
+
+
+
+
+
+/* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ */
+.prohieyslygi{
+    text-shadow: 1px 1px 2px black, 0 0 1em red; /* Параметры тени */
+    color: white; /* Белый цвет текста */
+    font-size: 2em; /* Размер надписи */
+    text-align:  center;   /* Выравнивание по центру */
+}
+
+
+.theme-button
+{
+    right: 5px;
+    top: 5px;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+
+.theme-button:hover
+{
+    background: rgb(70, 65, 65);
+}
+
+.theme-button:after
+{
+    background: rgb(255, 0, 0);
+}
+
+
+
+
+/* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ *//* ПРОЧИЕ УСЛУГИ */
+
+
+
+
+
